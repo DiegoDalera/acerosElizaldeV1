@@ -1,0 +1,17 @@
+/* Variante "taste": criterios de Taste Skill aplicados a la portada (hero claro, fondos planos, sin efectos). */
+.hero{background-image:none;padding:84px 0 76px}
+.hero h1{font-size:clamp(3rem,7.8vw,6.4rem)}
+.hero-fig{filter:none;aspect-ratio:5/6;background:
+  url("https://aceroselizaldesa.com.ar/assets/images/mbr-1920x1285.jpg") 38% center/cover,var(--bg-2);border:0}
+.hero-fig::after{display:none}
+.top{background:rgba(248,250,252,.94)}
+nav a{color:var(--steel)}
+nav a:hover,nav a[aria-current="page"]{color:var(--strong);border-color:var(--acc)}
+.stats{background:var(--bg-2)}
+.stats .wrap{grid-template-columns:repeat(4,1fr)}
+.stat b{font-size:clamp(3rem,6vw,5.2rem)}
+.cta-band::before{display:none}
+.card,.ind{transition:transform .2s ease,background .25s}
+.card:hover{transform:translateY(-2px)}
+.btn:active{transform:translateY(0) scale(.98)}
+.photo{filter:none}.photo::after{display:none}
